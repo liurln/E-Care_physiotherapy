@@ -1,0 +1,599 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:Assets/Kinect/KinectScripts/LZ4Sharp/LZ4Sharp.dll
+-r:Assets/Kinect/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_2
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_32
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/AwesomiumUnityScripts/AwesomiumUnityError.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityVirtualKey.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebCore.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebCoreHelper.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebKeyModifiers.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebKeyType.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebKeyboardEvent.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebSession.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebTexture.cs
+Assets/AwesomiumUnityScripts/AwesomiumUnityWebView.cs
+Assets/AwesomiumUnityScripts/Examples/Example0.cs
+Assets/Kinect/KinectDemos/AvatarsDemo/Scripts/CameraPitchCorrector.cs
+Assets/Kinect/KinectDemos/AvatarsDemo/Scripts/OffsetNodeMover.cs
+Assets/Kinect/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundBlender.cs
+Assets/Kinect/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundToImage.cs
+Assets/Kinect/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundToRenderer.cs
+Assets/Kinect/KinectDemos/BackgroundRemovalDemo/Scripts/UserPlaneMover.cs
+Assets/Kinect/KinectDemos/BackgroundRemovalDemo/Scripts/WebcamSource.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/DepthImageViewer.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/DepthSpriteViewer.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/EggMover.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/EggSpawner.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/HandColorOverlayer.cs
+Assets/Kinect/KinectDemos/ColliderDemo/Scripts/JumpTrigger.cs
+Assets/Kinect/KinectDemos/FaceTrackingDemo/Scripts/ModelFaceController.cs
+Assets/Kinect/KinectDemos/FaceTrackingDemo/Scripts/ModelHatController.cs
+Assets/Kinect/KinectDemos/FaceTrackingDemo/Scripts/SetBackgroundImage.cs
+Assets/Kinect/KinectDemos/FaceTrackingDemo/Scripts/SetBackgroundRemovalImage.cs
+Assets/Kinect/KinectDemos/FaceTrackingDemo/Scripts/SetFaceTexture.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CategorySelector.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudFaceDetector.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudFaceManager.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudWebTools.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/ClientError.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/Face.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceAttributes.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceLandmarks.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceRectangle.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FacialHair.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FeatureCoordinate.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/HeadPose.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/ModelSelector.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/OverlayController.cs
+Assets/Kinect/KinectDemos/FittingRoomDemo/Scripts/UserBodyBlender.cs
+Assets/Kinect/KinectDemos/GesturesDemo/Scripts/CubeGestureListener.cs
+Assets/Kinect/KinectDemos/GesturesDemo/Scripts/CubePresentationScript.cs
+Assets/Kinect/KinectDemos/GesturesDemo/Scripts/ModelGestureListener.cs
+Assets/Kinect/KinectDemos/GesturesDemo/Scripts/ModelPresentationScript.cs
+Assets/Kinect/KinectDemos/InteractionDemo/Scripts/GrabDropScript.cs
+Assets/Kinect/KinectDemos/InteractionDemo/Scripts/GrabRotateScript.cs
+Assets/Kinect/KinectDemos/InteractionDemo/Scripts/GuiWindowScript.cs
+Assets/Kinect/KinectDemos/MovieSequenceDemo/Scripts/UserMovieSequence.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/HandOverlayer.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/JointOverlayer.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/LinePainter.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/PhotoBoothController.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/PhotoShooter.cs
+Assets/Kinect/KinectDemos/OverlayDemo/Scripts/SkeletonOverlayer.cs
+Assets/Kinect/KinectDemos/PhysicsDemo/Scripts/BallController.cs
+Assets/Kinect/KinectDemos/PhysicsDemo/Scripts/BarrelTrigger.cs
+Assets/Kinect/KinectDemos/RecorderDemo/Scripts/KinectPlayerController.cs
+Assets/Kinect/KinectDemos/RecorderDemo/Scripts/PlayerDetectorController.cs
+Assets/Kinect/KinectDemos/SpeechRecognitionDemo/Scripts/BotControlScript.cs
+Assets/Kinect/KinectDemos/SpeechRecognitionDemo/Scripts/GameControlScript.cs
+Assets/Kinect/KinectDemos/SpeechRecognitionDemo/Scripts/ThirdPersonCamera.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/HandObjectChecker.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/HeightEstimator.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/PoseDetectorScript.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/PoseModelHelper.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/SimpleHolographicCamera.cs
+Assets/Kinect/KinectDemos/VariousDemos/Scripts/UserHeadCamera.cs
+Assets/Kinect/KinectDemos/VisualizerDemo/Scripts/BallMover.cs
+Assets/Kinect/KinectDemos/VisualizerDemo/Scripts/BallSpawner.cs
+Assets/Kinect/KinectDemos/VisualizerDemo/Scripts/MousePointOverlayer.cs
+Assets/Kinect/KinectDemos/VisualizerDemo/Scripts/SceneMeshVisualizer.cs
+Assets/Kinect/KinectDemos/VisualizerDemo/Scripts/UserMeshVisualizer.cs
+Assets/Kinect/KinectScripts/AvatarController.cs
+Assets/Kinect/KinectScripts/AvatarControllerClassic.cs
+Assets/Kinect/KinectScripts/AvatarScaler.cs
+Assets/Kinect/KinectScripts/BackgroundColorImage.cs
+Assets/Kinect/KinectScripts/BackgroundDepthImage.cs
+Assets/Kinect/KinectScripts/BackgroundRemovalManager.cs
+Assets/Kinect/KinectScripts/BodySlicer.cs
+Assets/Kinect/KinectScripts/Cubeman/CubemanController.cs
+Assets/Kinect/KinectScripts/Cubeman/PointmanController.cs
+Assets/Kinect/KinectScripts/FacetrackingManager.cs
+Assets/Kinect/KinectScripts/Filters/BoneOrientationsConstraint.cs
+Assets/Kinect/KinectScripts/Filters/JointPositionsFilter.cs
+Assets/Kinect/KinectScripts/InteractionInputModule.cs
+Assets/Kinect/KinectScripts/InteractionManager.cs
+Assets/Kinect/KinectScripts/Interfaces/DepthSensorInterface.cs
+Assets/Kinect/KinectScripts/Interfaces/DummyK2Interface.cs
+Assets/Kinect/KinectScripts/Interfaces/Kinect1Interface.cs
+Assets/Kinect/KinectScripts/Interfaces/Kinect2Interface.cs
+Assets/Kinect/KinectScripts/Interfaces/OpenNI2Interface.cs
+Assets/Kinect/KinectScripts/KinectDataServer.cs
+Assets/Kinect/KinectScripts/KinectGestures.cs
+Assets/Kinect/KinectScripts/KinectInterop.cs
+Assets/Kinect/KinectScripts/KinectManager.cs
+Assets/Kinect/KinectScripts/KinectRecorderPlayer.cs
+Assets/Kinect/KinectScripts/MultiScene/LoadFirstLevel.cs
+Assets/Kinect/KinectScripts/MultiScene/LoadLevelWhenNoUser.cs
+Assets/Kinect/KinectScripts/MultiScene/LoadLevelWhenUserDetected.cs
+Assets/Kinect/KinectScripts/MultiScene/LoadLevelWithDelay.cs
+Assets/Kinect/KinectScripts/MultiScene/LocateAvatarsAndGestureListeners.cs
+Assets/Kinect/KinectScripts/PortraitBackground.cs
+Assets/Kinect/KinectScripts/Samples/FollowUserRotation.cs
+Assets/Kinect/KinectScripts/Samples/GetFacePointsDemo.cs
+Assets/Kinect/KinectScripts/Samples/GetFaceSmileStatus.cs
+Assets/Kinect/KinectScripts/Samples/GetJointPositionDemo.cs
+Assets/Kinect/KinectScripts/Samples/JointOrientationView.cs
+Assets/Kinect/KinectScripts/Samples/JointPositionView.cs
+Assets/Kinect/KinectScripts/Samples/K2SensorChecker.cs
+Assets/Kinect/KinectScripts/Samples/MouseControl.cs
+Assets/Kinect/KinectScripts/Samples/PointCloudView.cs
+Assets/Kinect/KinectScripts/Samples/RaiseHandListener.cs
+Assets/Kinect/KinectScripts/Samples/SimpleBackgroundRemoval.cs
+Assets/Kinect/KinectScripts/Samples/SimpleGestureListener.cs
+Assets/Kinect/KinectScripts/Samples/SimpleInteractionListener.cs
+Assets/Kinect/KinectScripts/Samples/SimpleVisualGestureListener.cs
+Assets/Kinect/KinectScripts/SpeechErrorHandler.cs
+Assets/Kinect/KinectScripts/SpeechManager.cs
+Assets/Kinect/KinectScripts/VisualGestureManager.cs
+"Assets/Kinect/Standard Assets/CameraIntrinsics.cs"
+"Assets/Kinect/Standard Assets/CollectionMap.cs"
+"Assets/Kinect/Standard Assets/EventPump.cs"
+"Assets/Kinect/Standard Assets/ExceptionHelper.cs"
+"Assets/Kinect/Standard Assets/INativeWrapper.cs"
+"Assets/Kinect/Standard Assets/KinectBuffer.cs"
+"Assets/Kinect/Standard Assets/KinectFaceSpecialCases.cs"
+"Assets/Kinect/Standard Assets/KinectSpecialCases.cs"
+"Assets/Kinect/Standard Assets/KinectVisualGestureBuilderSpecialCases.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/CaptureStatusChangedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/CollectionStatusChangedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceAlignment.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceAlignmentQuality.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrame.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameFeatures.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameReader.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameReference.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameResult.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceFrameSource.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModel.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilder.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderAttributes.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderCaptureStatus.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderCollectionStatus.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceModelData.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FacePointType.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceProperty.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceShapeAnimations.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/FaceShapeDeformations.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrame.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameReader.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameReference.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameSource.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/HighDetailFacePoints.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/KinectFaceUnityAddinUtils.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/RectI.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/Face/TrackingIdLostEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/ContinuousGestureResult.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/DiscreteGestureResult.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/Gesture.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/GestureType.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/KinectVisualGestureBuilderUnityAddinUtils.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/TrackingIdLostEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderDatabase.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrame.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameReader.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameReference.cs"
+"Assets/Kinect/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameSource.cs"
+"Assets/Kinect/Standard Assets/NativeObjectCache.cs"
+"Assets/Kinect/Standard Assets/NativeWrapper.cs"
+"Assets/Kinect/Standard Assets/SmartGCHandle.cs"
+"Assets/Kinect/Standard Assets/ThreadSafeDictionary.cs"
+"Assets/Kinect/Standard Assets/Windows/Data/PropertyChangedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Activity.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Appearance.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeam.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamFrameList.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamMode.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBeamSubFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioBodyCorrelation.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/AudioSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Body.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyIndexFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyIndexFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyIndexFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyIndexFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/BodyIndexFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/CameraSpacePoint.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorCameraSettings.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorImageFormat.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/ColorSpacePoint.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/CoordinateMapper.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/CoordinateMappingChangedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DepthSpacePoint.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/DetectionResult.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Expression.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/FrameCapturedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/FrameCapturedStatus.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/FrameDescription.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/FrameEdges.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/FrameSourceTypes.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/HandState.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/InfraredFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/InfraredFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/InfraredFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/InfraredFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/InfraredFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/IsAvailableChangedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Joint.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/JointOrientation.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/JointType.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/KinectAudioCalibrationState.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/KinectCapabilities.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/KinectSensor.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/KinectUnityAddinUtils.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/LongExposureInfraredFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/LongExposureInfraredFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/LongExposureInfraredFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/LongExposureInfraredFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/LongExposureInfraredFrameSource.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/MultiSourceFrame.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/MultiSourceFrameArrivedEventArgs.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/MultiSourceFrameReader.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/MultiSourceFrameReference.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/TrackingConfidence.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/TrackingState.cs"
+"Assets/Kinect/Standard Assets/Windows/Kinect/Vector4.cs"
+Assets/ListView/Example/ListViewExample.cs
+Assets/ListView/Example/PreviewWindowController.cs
+Assets/ListView/Example/SelectedDatabaseController.cs
+Assets/ListView/Scripts/HeaderElement.cs
+Assets/ListView/Scripts/ListViewManager.cs
+Assets/ListView/Scripts/Row.cs
+Assets/ListView/Scripts/RowElement.cs
+Assets/Scripts/change_layer.cs
+Assets/Scripts/character_controller.cs
+Assets/Scripts/character_tracking.cs
+Assets/Scripts/clock_date_time.cs
+Assets/Scripts/get_breath_rate_data.cs
+Assets/Scripts/get_heart_rate_data.cs
+Assets/Scripts/get_history_data.cs
+Assets/Scripts/graph_drawing.cs
+Assets/Scripts/scene_switcher.cs
+Assets/Scripts/skeleton_joint.cs
+Assets/Scripts/skeleton_tracking.cs
+Assets/Scripts/socket_get_breath_rate.cs
+Assets/Scripts/socket_get_heart_rate.cs
+Assets/Scripts/time_conversion.cs
+Assets/SocketIO/JSONObject/JSONObject.cs
+Assets/SocketIO/JSONObject/JSONTemplates.cs
+Assets/SocketIO/JSONObject/VectorTemplates.cs
+Assets/SocketIO/Scripts/SocketIO/Ack.cs
+Assets/SocketIO/Scripts/SocketIO/Decoder.cs
+Assets/SocketIO/Scripts/SocketIO/Encoder.cs
+Assets/SocketIO/Scripts/SocketIO/EnginePacketType.cs
+Assets/SocketIO/Scripts/SocketIO/Packet.cs
+Assets/SocketIO/Scripts/SocketIO/Parser.cs
+Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs
+Assets/SocketIO/Scripts/SocketIO/SocketIOEvent.cs
+Assets/SocketIO/Scripts/SocketIO/SocketIOException.cs
+Assets/SocketIO/Scripts/SocketIO/SocketPacketType.cs
+Assets/SocketIO/Scripts/Test/TestSocketIO.cs
+Assets/SocketIO/WebsocketSharp/AssemblyInfo.cs
+Assets/SocketIO/WebsocketSharp/ByteOrder.cs
+Assets/SocketIO/WebsocketSharp/CloseEventArgs.cs
+Assets/SocketIO/WebsocketSharp/CloseStatusCode.cs
+Assets/SocketIO/WebsocketSharp/CompressionMethod.cs
+Assets/SocketIO/WebsocketSharp/ErrorEventArgs.cs
+Assets/SocketIO/WebsocketSharp/Ext.cs
+Assets/SocketIO/WebsocketSharp/Fin.cs
+Assets/SocketIO/WebsocketSharp/HandshakeBase.cs
+Assets/SocketIO/WebsocketSharp/HandshakeRequest.cs
+Assets/SocketIO/WebsocketSharp/HandshakeResponse.cs
+Assets/SocketIO/WebsocketSharp/LogData.cs
+Assets/SocketIO/WebsocketSharp/LogLevel.cs
+Assets/SocketIO/WebsocketSharp/Logger.cs
+Assets/SocketIO/WebsocketSharp/Mask.cs
+Assets/SocketIO/WebsocketSharp/MessageEventArgs.cs
+Assets/SocketIO/WebsocketSharp/Net/AuthenticationBase.cs
+Assets/SocketIO/WebsocketSharp/Net/AuthenticationChallenge.cs
+Assets/SocketIO/WebsocketSharp/Net/AuthenticationResponse.cs
+Assets/SocketIO/WebsocketSharp/Net/AuthenticationSchemes.cs
+Assets/SocketIO/WebsocketSharp/Net/Chunk.cs
+Assets/SocketIO/WebsocketSharp/Net/ChunkStream.cs
+Assets/SocketIO/WebsocketSharp/Net/ChunkedRequestStream.cs
+Assets/SocketIO/WebsocketSharp/Net/Cookie.cs
+Assets/SocketIO/WebsocketSharp/Net/CookieCollection.cs
+Assets/SocketIO/WebsocketSharp/Net/CookieException.cs
+Assets/SocketIO/WebsocketSharp/Net/EndPointListener.cs
+Assets/SocketIO/WebsocketSharp/Net/EndPointManager.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpBasicIdentity.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpConnection.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpDigestIdentity.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpHeaderInfo.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpHeaderType.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListener.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListenerContext.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListenerException.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListenerPrefixCollection.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListenerRequest.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpListenerResponse.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpStatusCode.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpStreamAsyncResult.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpUtility.cs
+Assets/SocketIO/WebsocketSharp/Net/HttpVersion.cs
+Assets/SocketIO/WebsocketSharp/Net/InputChunkState.cs
+Assets/SocketIO/WebsocketSharp/Net/InputState.cs
+Assets/SocketIO/WebsocketSharp/Net/LineState.cs
+Assets/SocketIO/WebsocketSharp/Net/ListenerAsyncResult.cs
+Assets/SocketIO/WebsocketSharp/Net/ListenerPrefix.cs
+Assets/SocketIO/WebsocketSharp/Net/NetworkCredential.cs
+Assets/SocketIO/WebsocketSharp/Net/QueryStringCollection.cs
+Assets/SocketIO/WebsocketSharp/Net/ReadBufferState.cs
+Assets/SocketIO/WebsocketSharp/Net/RequestStream.cs
+Assets/SocketIO/WebsocketSharp/Net/ResponseStream.cs
+Assets/SocketIO/WebsocketSharp/Net/Security/SslStream.cs
+Assets/SocketIO/WebsocketSharp/Net/WebHeaderCollection.cs
+Assets/SocketIO/WebsocketSharp/Net/WebSockets/HttpListenerWebSocketContext.cs
+Assets/SocketIO/WebsocketSharp/Net/WebSockets/TcpListenerWebSocketContext.cs
+Assets/SocketIO/WebsocketSharp/Net/WebSockets/WebSocketContext.cs
+Assets/SocketIO/WebsocketSharp/Opcode.cs
+Assets/SocketIO/WebsocketSharp/PayloadData.cs
+Assets/SocketIO/WebsocketSharp/Rsv.cs
+Assets/SocketIO/WebsocketSharp/WebSocket.cs
+Assets/SocketIO/WebsocketSharp/WebSocketException.cs
+Assets/SocketIO/WebsocketSharp/WebSocketFrame.cs
+Assets/SocketIO/WebsocketSharp/WebSocketState.cs
+Assets/SocketIO/WebsocketSharp/WebSocketStream.cs
+Assets/UI/DatePicker/DatePicker.cs
+Assets/UI/DatePicker/DatePickerCache.cs
+Assets/UI/DatePicker/DatePickerExtensions.cs
+Assets/UI/DatePicker/DatePickerTimer.cs
+Assets/UI/DatePicker/DatePickerUtilities.cs
+Assets/UI/DatePicker/DatePicker_Animator.cs
+Assets/UI/DatePicker/DatePicker_Button.cs
+Assets/UI/DatePicker/DatePicker_Config.cs
+Assets/UI/DatePicker/DatePicker_ContentLayout.cs
+Assets/UI/DatePicker/DatePicker_DateRange.cs
+Assets/UI/DatePicker/DatePicker_DayButton.cs
+Assets/UI/DatePicker/DatePicker_DayButton_Pool.cs
+Assets/UI/DatePicker/DatePicker_DayHeader.cs
+Assets/UI/DatePicker/DatePicker_Enums.cs
+Assets/UI/DatePicker/DatePicker_Header.cs
+Assets/UI/DatePicker/DatePicker_InputField.cs
+Assets/UI/DatePicker/DatePicker_Instantiation.cs
+Assets/UI/DatePicker/Example/ExampleController.cs
+Assets/UI/DatePicker/SerializableDate.cs
+Assets/UI/TableLayout/Example/TableLayoutExampleController.cs
+Assets/UI/TableLayout/TableCell.cs
+Assets/UI/TableLayout/TableLayout.cs
+Assets/UI/TableLayout/TableLayoutUtilities.cs
+Assets/UI/TableLayout/TableRow.cs
+"Assets/UITween/Prefabs/Click Effect Pref/ClickedWaveAnimation.cs"
+Assets/UITween/ScenesExamplesScripts/ActivateOnEnable.cs
+Assets/UITween/ScenesExamplesScripts/CreateAnimImage.cs
+Assets/UITween/ScenesExamplesScripts/FollowClick.cs
+Assets/UITween/Scripts/EasyTween.cs
+Assets/UITween/Scripts/ReferencedFrom.cs
+Assets/UITween/Scripts/UITween.cs
+Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs
+Assets/unity-ui-extensions/Examples/testHref.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs
+Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs
+Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs
+Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs
+Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs
+Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs
+Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs
+Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs
+Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs
+Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs
+Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs
+Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs
+Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs
+Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs
+Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs
+Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs
+Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs
+Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs
+Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs
+Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs
+Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs
+Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs
+Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs
+Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs
+Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs
+Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs
+Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs
+Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs
+Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs
+Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs
+Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs
+Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs
+Assets/unity-ui-extensions/Scripts/TabNavigation.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs
+Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs
+Assets/unity-ui-extensions/Scripts/UIWindowBase.cs
+Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs
+Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs
+Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs
+Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs
+Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs
+Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs
+Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Attributes/DontSaveField.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/ExampleScriptsAndClasses/TestClass.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/ExampleScriptsAndClasses/TestScript.cs
+"Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/ObjectComponent.cs"
+"Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/SceneData.cs"
+"Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/SceneObject.cs"
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/ObjectIdentifier.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/SaveLoad.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/SaveLoadMenu.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/ColorSurrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/GameObjectSurrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/QuaternionSurrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Texture2DSurrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/TransformSurrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector2Surrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector3Surrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector4Surrogate.cs
+Assets/unity-ui-extensions/Scripts/Utilities/Serialization/Utilities/TypeSystem.cs
+Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs
+Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs
+Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs
+Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs
+"Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs"
+"Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
